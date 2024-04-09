@@ -1,0 +1,42 @@
+# General
+node_modules/
+.cache/
+
+# IDE/Editor specific
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+[Tt]humbs.db
+*.DS_Store
+Desktop.ini
+
+# Dependency directories
+# You might want to remove these if you commit your dependencies
+# Change the paths as necessary if you have a custom setup
+packages/*/node_modules/
+packages/*/dist/
+packages/*/public/
+
+# Build artifacts
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env.local
+.env.*.local
+
+# Node.js files
+node_modules/
+package-lock.json
+yarn.lock
+
+# Tailwind CSS
+.tailwind/
+.tailwind_cache/
